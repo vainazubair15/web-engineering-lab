@@ -1,0 +1,173 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Practice Tasks 1–9</title>
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Internal CSS -->
+    <style>
+        .blue-button {
+            background-color: blue;
+            color: white;
+        }
+
+        .center-heading {
+            text-align: center;
+            text-transform: capitalize;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- TASK 1: CSS methods, box, and headings -->
+    <section>
+        <h2>Task 1: CSS Methods</h2>
+
+        <div id="box">
+            <h1 class="heading">Heading One</h1>
+            <h2 class="heading">Heading Two</h2>
+            <h3 class="heading">Heading Three</h3>
+        </div>
+
+        <button class="green-button">External CSS</button>
+        <button class="blue-button">Internal CSS</button>
+        <button style="background-color: pink; color: black;">
+            Inline CSS
+        </button>
+    </section>
+
+    <hr>
+
+    <!-- TASK 2: Text alignment, capitalization, and font -->
+    <section>
+        <h2 class="center-heading">
+            this heading is centred and capitalized
+        </h2>
+    </section>
+
+    <hr>
+
+    <!-- TASK 3: em and rem -->
+    <section>
+        <h2>Task 3: em and rem</h2>
+
+        <div class="outer">
+            Outer div: 25px equivalent
+            <div class="inner">
+                Inner div: 10px equivalent using em
+            </div>
+        </div>
+
+        <div class="outer-rem">
+            Outer div: 25px equivalent using rem
+            <div class="inner-rem">
+                Inner div: 10px equivalent using rem
+            </div>
+        </div>
+    </section>
+
+    <hr>
+
+    <!-- TASK 4: Navbar -->
+    <section>
+        <h2>Task 4: Navigation Bar</h2>
+
+        <header class="navbar">
+            <div class="logo">amazon</div>
+
+            <nav class="nav-links">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#contact">Contact</a>
+            </nav>
+
+            <form class="search">
+                <input type="search" placeholder="Search here">
+                <button type="submit">Search</button>
+            </form>
+        </header>
+    </section>
+
+    <hr>
+
+    <!-- TASK 5: Header, content, and footer -->
+    <section>
+        <h2>Task 5: Page Layout and Opacity</h2>
+
+        <div class="page-layout">
+            <header class="layout-header">Header</header>
+
+            <main class="content">
+                <div class="opacity-box box-one">Box 1</div>
+                <div class="opacity-box box-two">Box 2</div>
+                <div class="opacity-box box-three">Box 3</div>
+            </main>
+
+            <footer class="layout-footer">Footer</footer>
+        </div>
+    </section>
+
+    <hr>
+
+    <!-- TASK 6: Fixed background-image element -->
+    <section>
+        <h2>Task 6: Fixed Love Nature Element</h2>
+
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            Nature provides fresh air, beautiful landscapes, and peace.
+        </p>
+
+        <div class="love-nature">Love Nature</div>
+
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            Forests, rivers, and mountains make our world beautiful.
+            Scroll the page to see the fixed element remain in place.
+        </p>
+
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            Protecting nature helps preserve the environment for the future.
+        </p>
+    </section>
+
+    <hr>
+
+    <!-- TASK 7: Flexbox centering -->
+    <section>
+        <h2>Task 7: Flexbox Centering</h2>
+
+        <div class="flex-parent">
+            <div class="flex-child">Centered Div</div>
+        </div>
+    </section>
+
+    <hr>
+
+    <!-- TASK 8: Media queries -->
+    <section>
+        <h2>Task 8: Responsive Media Queries</h2>
+
+        <div class="responsive-box">
+            Resize your browser to change my colour.
+        </div>
+    </section>
+
+    <hr>
+
+    <!-- TASK 9: Hover transition -->
+    <section>
+        <h2>Task 9: Hover Transition</h2>
+
+        <button class="hover-button">Hover Over Me</button>
+    </section>
+
+</body>
+</html>
